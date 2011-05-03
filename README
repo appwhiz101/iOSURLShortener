@@ -1,0 +1,10 @@
+This is an iOS Category to shorten your long URLS.
+
+First drag the NSString + URLShorten.h and the NSString + URLShorten.m files into your project.
+Then import them using this line of code #import "NSString + URLShorten.h"
+
+The shorten your url by using 
+NSString *shortenedurl = [@"http://www.google.com" shortenURL];
+instead of http://www.google.com use a NSString.  ShortenedURL is the shortened url for your nsstring!
+
+Thanks
